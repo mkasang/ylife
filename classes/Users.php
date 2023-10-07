@@ -60,7 +60,6 @@ Class Users extends DBConnection {
 			}else{
 				return "UPDATE users set $data where id = {$id}";
 			}
-			
 		}
 	}
 	public function delete_users(){
